@@ -24,7 +24,12 @@ const Modal = ({ isShowing, hide }) =>
                   <span aria-hidden='true'>&times;</span>
                 </button>
               </div>
-              <form className='form' method='POST' data-netlify='true'>
+              <form
+                className='form'
+                name='contact'
+                method='POST'
+                data-netlify='true'
+              >
                 <input type='text' name='name' placeholder='name' />
                 <input type='email' name='email' placeholder='email' />
                 <textarea
