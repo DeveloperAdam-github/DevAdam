@@ -27,7 +27,7 @@ const Modal = ({ isShowing, hide }) =>
               <form
                 className='form'
                 name='contact'
-                method='POST'
+                action='POST'
                 data-netlify='true'
               >
                 <input type='text' name='name' placeholder='name' />
