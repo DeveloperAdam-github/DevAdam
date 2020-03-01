@@ -25,7 +25,7 @@ const Modal = ({ isShowing, hide }) =>
                 </button>
               </div>
               <form name='contact' method='POST'>
-                <input type='hidden' name='contact' value='contact' />
+                <input type='hidden' name='form-name' value='contact' />
                 <input type='text' name='name' placeholder='Name' />
                 <input type='email' name='email' placeholder='Email' />
                 <textarea
