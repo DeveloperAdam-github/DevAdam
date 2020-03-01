@@ -1,0 +1,105 @@
+.container {
+  background-color: #fff8f6;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.about {
+  grid-column: 4/8;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  background-color: #fff8f6;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #fff8f6;
+  padding-bottom: 80px;
+}
+
+.card1 {
+  width: 250px;
+  height: 350px;
+  font-size: 20px;
+  color: white;
+  background-color: darkslategray;
+  text-align: center;
+  justify-content: space-evenly;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.card2 {
+  width: 250px;
+  height: 350px;
+  font-size: 20px;
+  color: white;
+  background-color: darkslategray;
+  text-align: center;
+  justify-content: space-evenly;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.card3 {
+  width: 250px;
+  height: 350px;
+  font-size: 20px;
+  color: white;
+  background-color: darkslategray;
+  text-align: center;
+  justify-content: space-evenly;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.bio {
+  background-color: #fff8f6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .card1 {
+    width: 120px;
+    height: 220px;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 16px;
+  }
+  .card2 {
+    width: 120px;
+    height: 220px;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 16px;
+  }
+  .card3 {
+    width: 120px;
+    height: 220px;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #logo1 {
+    height: 90px !important;
+    width: 80px !important;
+    margin-top: 30px !important ;
+  }
+  #logo2 {
+    height: 90px !important;
+    width: 80px !important;
+    margin-top: 25px !important ;
+  }
+  #logo3 {
+    height: 90px !important;
+    width: 80px !important;
+    margin-top: 30px !important ;
+  }
+}

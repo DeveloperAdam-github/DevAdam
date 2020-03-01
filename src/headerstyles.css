@@ -1,0 +1,25 @@
+.header {
+  height: 100vh;
+  background-image: url(../src/assets/images/jay-mantri-TFyi0QOx08c-unsplash.jpg);
+  background-size: cover;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+button {
+  border-radius: 7px;
+  font-family: Oxanium;
+  color: white;
+  font-size: 15px;
+  margin: 2px;
+  padding: 4px 8px 4px 8px;
+  outline: none;
+  background-color: darkslategray;
+  cursor: pointer;
+}

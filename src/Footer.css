@@ -1,0 +1,38 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+  padding: 10px;
+}
+
+.copyright {
+  grid-column: 1;
+  font-size: 19px;
+}
+
+.sociallist {
+  list-style-type: none;
+  display: flex;
+  grid-row: 1;
+  grid-column: 5/5;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    gap: 10px;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+
+  .sociallist {
+    grid-column: 4/5;
+  }
+
+  .sociallist li {
+    padding-left: 15px;
+  }
+}
