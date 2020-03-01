@@ -35,7 +35,11 @@ const Modal = ({ isShowing, hide }) =>
                   rows='10'
                   placeholder='Your Message here...'
                 ></textarea>
-                <button type='submit' style={{ fontWeight: 'bold' }}>
+                <button
+                  type='submit'
+                  onSubmit={e => e.preventDefault()}
+                  style={{ fontWeight: 'bold' }}
+                >
                   SEND!
                 </button>
               </form>
