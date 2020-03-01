@@ -34,7 +34,7 @@ const Modal = ({ isShowing, hide }) =>
                 <input type='email' name='email' placeholder='email' />
                 <textarea
                   name='message'
-                  id=''
+                  id='message'
                   cols='30'
                   rows='10'
                   placeholder='Your Message here...'
