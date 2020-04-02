@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import Router from '../Router';
+import { Link } from 'react-scroll';
 import './nav.css';
 
 const Nav = () => {
@@ -9,49 +11,56 @@ const Nav = () => {
         <div className='links'>
           <div className='grow'>
             <Link
+              activeClass='true'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               style={{
                 marginRight: '20px',
                 color: 'black',
                 textDecoration: 'none',
+                cursor: 'pointer',
                 transition: 'all 0.2s ease-in-out'
               }}
-              to='/'
+              to='header'
             >
               Home
             </Link>
           </div>
           <div className='grow'>
             <Link
+              activeClass='true'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               style={{
                 marginRight: '20px',
                 color: 'black',
-                textDecoration: 'none'
+                textDecoration: 'none',
+                cursor: 'pointer'
               }}
-              to='/'
+              to='about'
             >
               About
             </Link>
           </div>
+
           <div className='grow'>
             <Link
+              activeClass='true'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               style={{
                 marginRight: '20px',
                 color: 'black',
-                textDecoration: 'none'
+                textDecoration: 'none',
+                cursor: 'pointer'
               }}
-              to='/'
-            >
-              Contact
-            </Link>
-          </div>
-          <div className='grow'>
-            <Link
-              style={{
-                marginRight: '20px',
-                color: 'black',
-                textDecoration: 'none'
-              }}
-              to='/'
+              to='projects-title'
             >
               Projects
             </Link>

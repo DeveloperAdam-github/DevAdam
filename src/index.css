@@ -39,7 +39,7 @@ code {
 
 .modal {
   z-index: 100;
-  background: white;
+  background: #fff7f4;
   margin: 1.75rem auto;
   border-radius: 3px;
   max-width: 500px;

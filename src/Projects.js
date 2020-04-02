@@ -4,7 +4,7 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <div className='projectscontainer'>
+    <div className='projectscontainer' id='Projects'>
       <div className='projects-title'>
         <h1>These are my projects</h1>
       </div>
@@ -27,9 +27,15 @@ const Projects = () => {
             <p> </p>
           </div>
         </a>
-        <div className='project3'>
-          <p>PROJECT 3</p>
-        </div>
+        <a
+          href='https://peaceful-falls-30555.herokuapp.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <div className='project3'>
+            <p></p>
+          </div>
+        </a>
         <div className='project4'>
           <p>PROJECT 4</p>
         </div>

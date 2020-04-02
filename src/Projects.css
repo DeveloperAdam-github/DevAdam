@@ -1,5 +1,5 @@
 .projectscontainer {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -48,6 +48,8 @@
   background-color: #fff8f6;
   margin: 30px;
   border-radius: 50%;
+  background-image: url(./assets/images/screenshot3.png);
+  background-size: contain;
 }
 .project4 {
   text-align: center;
